@@ -169,7 +169,7 @@ export default function InfoPanel({ open, onClose }) {
                   </a>
                 </div>
 
-                <div>Pahlstrasse 20, 81377 Munchen</div>
+                <div>München, Germany</div>
 
                 <div>
                   <a
