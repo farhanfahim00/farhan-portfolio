@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@theme {
+  /* Base */
+  --color-paper: #FAF7F0;
+  --color-ink: #2B2B2B;
+  --color-ink-light: #6B6B6B;
+
+  /* Crayon accents */
+  --color-accent-red: #E85D4E;
+  --color-accent-orange: #F0A05A;
+  --color-accent-blue: #5B8FBF;
+  --color-accent-green: #7FA96B;
+
+  /* Muted state for unreached milestones */
+  --color-muted: #C9C4B8;
+
+  /* Fonts */
+  --font-hand: "Caveat", cursive;
+  --font-body: "Patrick Hand", sans-serif;
+}
+
+.cursor-pointer-hand {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28"><path d="M11 4 L11 16 M11 16 Q11 12 14 12 Q17 12 17 15 L17 20 Q17 24 13 24 Q9 24 7 21 L4 16 Q3 14 5 13 Q7 12 8 14 L9 16" fill="none" stroke="black" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>') 8 4, pointer;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  margin: 0;
+}
